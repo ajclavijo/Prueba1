@@ -1,0 +1,32 @@
+﻿<Window x:Class="Prueba.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prueba"
+        mc:Ignorable="d"
+        Title="Menu" Height="450" Width="800">
+
+	<Grid>
+		<Image Margin="184,-196,182,-203" Source="WhatsApp Image 2018-09-29 at 7.14.07 PM.jpeg" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+			<Image.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="-90"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Image.RenderTransform>
+		</Image>
+		<Button Content="Persona" HorizontalAlignment="Left" Margin="384,200,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="Persona_Click" FontFamily="Segoe Print"/>
+		<Button Content="Recaudo" HorizontalAlignment="Left" Margin="496,200,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="Recaudo_Click" FontFamily="Segoe Print"/>
+		<Button Content="Beneficiario" HorizontalAlignment="Left" Margin="618,200,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="Beneficiario_Click" FontFamily="Segoe Print"/>
+		<Button Content="Ciudad" HorizontalAlignment="Left" Margin="384,251,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" RenderTransformOrigin="0.427,1.6" Click="Ciudad_Click" FontFamily="Segoe Print"/>
+		<Button Content="Contrato" HorizontalAlignment="Left" Margin="496,251,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="Contrato_Click" FontFamily="Segoe Print"/>
+		<Button Content="Departamento" HorizontalAlignment="Left" Margin="618,251,0,0" VerticalAlignment="Top" Width="98" FontWeight="Bold" Click="Departamento_Click" FontFamily="Segoe Print"/>
+		<Button Content="Parentesco" HorizontalAlignment="Left" Margin="384,299,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="Parentesco_Click" FontFamily="Segoe Print"/>
+		<Button Content="Salir" HorizontalAlignment="Left" Margin="496,299,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="Salir_Click" FontFamily="Segoe Print" />
+
+
+	</Grid>
+</Window>
