@@ -6,7 +6,30 @@
         xmlns:local="clr-namespace:Prueba.Vistas"
         mc:Ignorable="d"
         Title="Recaudo" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+	<Grid>
+		<Image Margin="0,0,0,313" Source="/Prueba;component/Sin título.jpg" Stretch="Fill"/>
+		<Border BorderBrush="Blue" BorderThickness="1" HorizontalAlignment="Left" Height="256" Margin="10,134,0,0" VerticalAlignment="Top" Width="344">
+		</Border>
+		<Label Content="Codigo Recibo" HorizontalAlignment="Left" Margin="32,157,0,0" VerticalAlignment="Top" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Label Content="Codigo Contrato" HorizontalAlignment="Left" Margin="32,202,0,0" VerticalAlignment="Top" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Label Content="Fecha Pago" HorizontalAlignment="Left" Margin="32,238,0,0" VerticalAlignment="Top" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Label Content="Valor" HorizontalAlignment="Left" Margin="32,274,0,0" VerticalAlignment="Top" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Label Content="Detalle" HorizontalAlignment="Left" Margin="32,310,0,0" VerticalAlignment="Top" FontFamily="Segoe Print" FontWeight="Bold"/>
+
+
+
+
+		<Border BorderBrush="BlueViolet" BorderThickness="1" HorizontalAlignment="Left" Height="152" Margin="382,238,0,0" VerticalAlignment="Top" Width="381"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="192,157,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="192,202,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="192,274,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="192,310,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+		<Button Content="Insertar" HorizontalAlignment="Left" Margin="419,157,0,0" VerticalAlignment="Top" Width="75"/>
+		<Button Content="Modificar" HorizontalAlignment="Left" Margin="553,157,0,0" VerticalAlignment="Top" Width="75"/>
+		<Button Content="Consultar" HorizontalAlignment="Left" Margin="685,157,0,0" VerticalAlignment="Top" Width="75"/>
+		<Button Content="Eliminar" HorizontalAlignment="Left" Margin="487,202,0,0" VerticalAlignment="Top" Width="75"/>
+		<Button Content="Salir" HorizontalAlignment="Left" Margin="626,202,0,0" VerticalAlignment="Top" Width="75" Click="Salir_Click"/>
+
+
+	</Grid>
 </Window>

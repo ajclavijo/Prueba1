@@ -21,7 +21,6 @@ C:\Users\364E\source\repos\Prueba\Prueba\bin\Debug\EntityFramework.xml
 C:\Users\364E\source\repos\Prueba\Prueba\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\364E\source\repos\Prueba\Prueba\bin\Debug\EntityFramework.SqlServerCompact.xml
 C:\Users\364E\source\repos\Prueba\Prueba\obj\Debug\Prueba.csproj.CopyComplete
-C:\Users\364E\source\repos\Prueba\Prueba\obj\Debug\Prueba.Migrations.AddMigrationInicial.resources
 C:\Users\364E\source\repos\Prueba\Prueba\obj\Debug\Vistas\Persona.g.cs
 C:\Users\364E\source\repos\Prueba\Prueba\obj\Debug\Vistas\Recaudo.g.cs
 C:\Users\364E\source\repos\Prueba\Prueba\obj\Debug\Vistas\Persona.baml
@@ -36,3 +35,4 @@ C:\Users\364E\source\repos\Prueba\Prueba\obj\Debug\Vistas\Ciudad.baml
 C:\Users\364E\source\repos\Prueba\Prueba\obj\Debug\Vistas\Contrato.baml
 C:\Users\364E\source\repos\Prueba\Prueba\obj\Debug\Vistas\Departamento.baml
 C:\Users\364E\source\repos\Prueba\Prueba\obj\Debug\Vistas\Parentesco.baml
+C:\Users\364E\source\repos\Prueba\Prueba\obj\Debug\Prueba.Migrations.Dos.resources

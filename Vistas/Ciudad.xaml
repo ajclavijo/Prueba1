@@ -23,11 +23,10 @@
 		<TextBox HorizontalAlignment="Left" Height="23" Margin="514,206,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
 		<Label Content="Departamento" HorizontalAlignment="Left" Margin="388,239,0,0" VerticalAlignment="Top" FontFamily="Segoe Print" FontWeight="Bold"/>
 		<ComboBox ItemsSource="{Binding  ListaD, Mode=OneWay}" SelectedValue="{Binding Persona.DeparID}" SelectedValuePath="DeparID" HorizontalAlignment="Left" Margin="514,243,0,0" VerticalAlignment="Top" Width="120" FontFamily="Segoe Print" FontWeight="Bold"/>
-		<Button Command="{Binding cmd_Insertar}" HorizontalAlignment="Left" Margin="675,141,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.399,2.065" FontFamily="Segoe Print" FontWeight="Bold">Insertar</Button>
+		<Button Command="{Binding cmd_Insertar}" HorizontalAlignment="Left" Margin="675,147,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.399,2.065" FontFamily="Segoe Print" FontWeight="Bold">Insertar</Button>
 		<Button Command="{Binding cmd_Eliminar}" HorizontalAlignment="Left" Margin="675,180,0,0" VerticalAlignment="Top" Width="75" FontFamily="Segoe Print" FontWeight="Bold" RenderTransformOrigin="4.481,-4.613">Eliminar</Button>
 		<Button Command="{Binding cmd_Modificar}" HorizontalAlignment="Left" Margin="675,219,0,0" VerticalAlignment="Top" Width="75" FontFamily="Segoe Print" FontWeight="Bold">Modificar</Button>
-		<Button Command="{Binding cmd_Consultar}" HorizontalAlignment="Left" Margin="675,258,0,0" VerticalAlignment="Top" Width="75" FontFamily="Segoe Print" FontWeight="Bold">Consultar</Button>
-		<Button Content="Salir" HorizontalAlignment="Left" Margin="675,295,0,0" VerticalAlignment="Top" Width="75" Click="Salir_Click" FontFamily="Segoe Print" FontWeight="Bold" RenderTransformOrigin="1.703,-2.015"/>
+		<Button Content="Salir" HorizontalAlignment="Left" Margin="675,253,0,0" VerticalAlignment="Top" Width="75" Click="Salir_Click" FontFamily="Segoe Print" FontWeight="Bold" RenderTransformOrigin="1.703,-2.015"/>
 		
 	</Grid>
 </Window>

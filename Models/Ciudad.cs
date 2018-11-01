@@ -38,10 +38,10 @@ namespace Prueba.Models
 		public int DeparID { get { return DeparId; } set { if (DeparId != value) { DeparId = value; OnPropertyChanged(); } } }
 
 		private ObservableCollection<Persona> opersona;
-		public virtual ObservableCollection<Persona> oPersona { get { return oPersona; } set { oPersona = value; OnPropertyChanged(); } }
+		public virtual ObservableCollection<Persona> oPersona { get { return opersona; } set { opersona = value; OnPropertyChanged(); } }
 
 		private ObservableCollection<Contrato> ocontrato;
-		public virtual ObservableCollection<Contrato> oContrato { get { return oContrato; } set { oContrato = value; OnPropertyChanged(); } }
+		public virtual ObservableCollection<Contrato> oContrato { get { return ocontrato; } set { ocontrato = value; OnPropertyChanged(); } }
 
 	}
 }

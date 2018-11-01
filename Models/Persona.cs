@@ -68,10 +68,10 @@ namespace Prueba.Models
 
 
 		private ObservableCollection<Contrato> ocontrato;
-		public virtual ObservableCollection<Contrato> oContrato { get { return oContrato; } set { oContrato = value; OnPropertyChanged(); } }
+		public virtual ObservableCollection<Contrato> oContrato { get { return ocontrato; } set { ocontrato = value; OnPropertyChanged(); } }
 
 
 		private ObservableCollection<Beneficiario> obeneficiario;
-		public virtual ObservableCollection<Beneficiario> oBeneficiario { get { return oBeneficiario; } set { oBeneficiario = value; OnPropertyChanged(); } }
+		public virtual ObservableCollection<Beneficiario> oBeneficiario { get { return obeneficiario; } set { obeneficiario = value; OnPropertyChanged(); } }
 	}
 }

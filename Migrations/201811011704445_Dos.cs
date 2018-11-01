@@ -3,7 +3,7 @@ namespace Prueba.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class AddMigrationInicial : DbMigration
+    public partial class Dos : DbMigration
     {
         public override void Up()
         {
@@ -33,7 +33,7 @@ namespace Prueba.Migrations
                         PersonaID = c.Int(nullable: false),
                         FechaAfi = c.DateTime(nullable: false),
                         CiudadID = c.Int(nullable: false),
-                        FormaPago = c.String(),
+                        FormaPago = c.String(nullable: false),
                         Valor = c.Decimal(nullable: false, precision: 18, scale: 2),
                         Asesor = c.Int(nullable: false),
                         CantBen = c.Int(nullable: false),
@@ -61,13 +61,13 @@ namespace Prueba.Migrations
                 c => new
                     {
                         PersonaID = c.Int(nullable: false, identity: true),
-                        TipoDoc = c.String(),
+                        TipoDoc = c.String(nullable: false),
                         Documento = c.Int(nullable: false),
-                        Nombre = c.String(maxLength: 30),
-                        Apellido = c.String(maxLength: 30),
+                        Nombre = c.String(nullable: false, maxLength: 30),
+                        Apellido = c.String(nullable: false, maxLength: 30),
                         Direccion = c.String(maxLength: 60),
                         FechaNac = c.DateTime(nullable: false),
-                        Celular = c.String(maxLength: 15),
+                        Celular = c.String(nullable: false, maxLength: 15),
                         Fijo = c.String(maxLength: 15),
                         CiudadID = c.Int(nullable: false),
                     })
@@ -80,8 +80,9 @@ namespace Prueba.Migrations
                 c => new
                     {
                         RecaudoID = c.Int(nullable: false, identity: true),
+                        Fecha = c.DateTime(nullable: false),
                         ContratoID = c.Int(nullable: false),
-                        FechaIngr = c.DateTime(nullable: false),
+                        FechaPago = c.DateTime(nullable: false),
                         Valor = c.Decimal(nullable: false, precision: 18, scale: 2),
                         Detalle = c.String(maxLength: 200),
                     })
@@ -94,7 +95,7 @@ namespace Prueba.Migrations
                 c => new
                     {
                         ParentescoID = c.Int(nullable: false, identity: true),
-                        Nombre = c.String(maxLength: 15),
+                        Nombre = c.String(nullable: false, maxLength: 15),
                     })
                 .PrimaryKey(t => t.ParentescoID);
             

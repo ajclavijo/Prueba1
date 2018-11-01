@@ -33,6 +33,6 @@ namespace Prueba.Models
 
 
 		private ObservableCollection<Beneficiario> obeneficiario;
-		public virtual ObservableCollection<Beneficiario> oBeneficiario { get { return oBeneficiario; } set { oBeneficiario = value; OnPropertyChanged(); } }
+		public virtual ObservableCollection<Beneficiario> oBeneficiario { get { return obeneficiario; } set { obeneficiario = value; OnPropertyChanged(); } }
 	}
 }

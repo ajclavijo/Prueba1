@@ -5,8 +5,34 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Prueba.Vistas"
         mc:Ignorable="d"
-        Title="Contrato" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Contrato" Height="670" Width="900">
+	<Grid>
+		<Image Margin="0,0,0,500" Source="/Prueba;component/Sin título.jpg" Stretch="Fill"/>
+		<Border BorderBrush="Blue" BorderThickness="1" HorizontalAlignment="Left" Height="470" Margin="45,144,0,0" VerticalAlignment="Top" Width="356"/>
+		<Label Content="Codigo Contrato" HorizontalAlignment="Left" Margin="67,204,0,0" VerticalAlignment="Top" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Label Content="Contrato" HorizontalAlignment="Left" Margin="67,160,0,0" VerticalAlignment="Top" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Label Content="Fecha Contrato" HorizontalAlignment="Left" Margin="67,244,0,0" VerticalAlignment="Top" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Label Content="Ciudad" HorizontalAlignment="Left" Margin="67,284,0,0" VerticalAlignment="Top" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Label Content="Forma de pago" HorizontalAlignment="Left" Margin="67,318,0,0" VerticalAlignment="Top" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Label Content="Valor" HorizontalAlignment="Left" Margin="67,358,0,0" VerticalAlignment="Top" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Label Content="Asesor" HorizontalAlignment="Left" Margin="67,394,0,0" VerticalAlignment="Top" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Label Content="Cantidad Beneficiaro" HorizontalAlignment="Left" Margin="67,430,0,0" VerticalAlignment="Top" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="223,160,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="223,206,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+		<ComboBox HorizontalAlignment="Left" Margin="223,282,0,0" VerticalAlignment="Top" Width="120"/>
+		<ComboBox HorizontalAlignment="Left" Margin="223,322,0,0" VerticalAlignment="Top" Width="120"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="223,358,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="223,394,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="223,434,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+		<Button Content="Insertar" HorizontalAlignment="Left" Margin="67,515,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.199,0.735" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Button Content="Modificar" HorizontalAlignment="Left" Margin="172,515,0,0" VerticalAlignment="Top" Width="75" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Button Content="Consultar" HorizontalAlignment="Left" Margin="284,515,0,0" VerticalAlignment="Top" Width="75" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Button Content="Eliminar" HorizontalAlignment="Left" Margin="128,572,0,0" VerticalAlignment="Top" Width="75"/>
+		<Button Content="Salir" HorizontalAlignment="Left" Margin="247,572,0,0" VerticalAlignment="Top" Width="75" FontFamily="Segoe Print" FontWeight="Bold" Click="Salir_Click"/>
+		<Border BorderBrush="CadetBlue" BorderThickness="1" HorizontalAlignment="Left" Height="454" Margin="432,160,0,0" VerticalAlignment="Top" Width="431"/>
+		
+
+
+
+	</Grid>
 </Window>

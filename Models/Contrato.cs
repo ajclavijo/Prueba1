@@ -39,12 +39,12 @@ namespace Prueba.Models
 
 		//[ForeignKey("oCiudad")]
 		[Required]
-		public int CiudadID { get { return CiudadId; } set { if (CiudadId != value) { CiudadId = value; OnPropertyChanged(); } } }
-		private int CiudadId;
+		public int CiudadID { get { return ciudadId; } set { if (ciudadId != value) { ciudadId = value; OnPropertyChanged(); } } }
+		private int ciudadId;
 		public virtual Ciudad oCiudad { get; set; }
 
 		[Required]
-		[Display(Name ="Forma de PAgo")]
+		[Display(Name ="Forma de Pago")]
 		public string FormaPago { get { return formaPago; } set { if (formaPago != value) { formaPago = value; OnPropertyChanged(); } } }
 		private string formaPago;
 
@@ -64,11 +64,11 @@ namespace Prueba.Models
 
 
 		private ObservableCollection<Beneficiario> obeneficiario;
-		public virtual ObservableCollection<Beneficiario> oBeneficiario { get { return oBeneficiario; } set { oBeneficiario = value; OnPropertyChanged(); } }
+		public virtual ObservableCollection<Beneficiario> oBeneficiario { get { return obeneficiario; } set { obeneficiario = value; OnPropertyChanged(); } }
 
 
 		private ObservableCollection<Recaudo> orecaudo;
-		public virtual ObservableCollection<Recaudo> oRecaudo { get { return oRecaudo; } set { oRecaudo = value; OnPropertyChanged(); } }
+		public virtual ObservableCollection<Recaudo> oRecaudo { get { return orecaudo; } set { orecaudo = value; OnPropertyChanged(); } }
 
 	}
 }

@@ -7,13 +7,13 @@ namespace Prueba.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class AddMigrationInicial : IMigrationMetadata
+    public sealed partial class Dos : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddMigrationInicial));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Dos));
         
         string IMigrationMetadata.Id
         {
-            get { return "201810211919333_Add-Migration Inicial"; }
+            get { return "201811011704445_Dos"; }
         }
         
         string IMigrationMetadata.Source

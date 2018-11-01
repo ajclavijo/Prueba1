@@ -6,7 +6,25 @@
         xmlns:local="clr-namespace:Prueba.Vistas"
         mc:Ignorable="d"
         Title="Beneficiario" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+	<Grid>
+		<Image Margin="0,0,0,295" Source="/Prueba;component/Sin título.jpg" Stretch="Fill"/>
+		<Border BorderBrush="Blue" BorderThickness="1" HorizontalAlignment="Left" Height="251" Margin="30,129,0,0" VerticalAlignment="Top" Width="382">
+		</Border>
+		<Border BorderBrush="BlueViolet" BorderThickness="1" HorizontalAlignment="Left" Height="171" Margin="443,209,0,0" VerticalAlignment="Top" Width="317"/>
+		<Label Content="Codigo Beneficiario" HorizontalAlignment="Left" Margin="55,151,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.395,-1.312" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Label Content="codigo Persona" HorizontalAlignment="Left" Margin="55,218,0,0" VerticalAlignment="Top" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Label Content="Fecha de Registro" HorizontalAlignment="Left" Margin="55,254,0,0" VerticalAlignment="Top" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Label Content="Parentesco" HorizontalAlignment="Left" Margin="55,290,0,0" VerticalAlignment="Top" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Label Content="Codigo Contrato" HorizontalAlignment="Left" Margin="55,187,0,0" VerticalAlignment="Top" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="222,155,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<ComboBox HorizontalAlignment="Left" Margin="222,187,0,0" VerticalAlignment="Top" Width="144" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<ComboBox HorizontalAlignment="Left" Margin="222,223,0,0" VerticalAlignment="Top" Width="144" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<ComboBox HorizontalAlignment="Left" Margin="222,294,0,0" VerticalAlignment="Top" Width="144" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Button Content="Insertar" HorizontalAlignment="Left" Margin="55,341,0,0" VerticalAlignment="Top" Width="75" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Button Content="Modificar" HorizontalAlignment="Left" Margin="170,341,0,0" VerticalAlignment="Top" Width="75" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Button Content="Eliminar" HorizontalAlignment="Left" Margin="290,341,0,0" VerticalAlignment="Top" Width="76" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Button Content="Consultar" HorizontalAlignment="Left" Margin="469,167,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="2.193,-8.575" FontFamily="Segoe Print" FontWeight="Bold"/>
+		<Button Content="Salir" HorizontalAlignment="Left" Margin="648,167,0,0" VerticalAlignment="Top" Width="75" FontFamily="Segoe Print" FontWeight="Bold" Click="Salir_Click"/>
+
+	</Grid>
 </Window>
